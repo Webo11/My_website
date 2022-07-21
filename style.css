@@ -1,0 +1,286 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+	margin: 0;
+}
+
+.pacman{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png");
+	background-size: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+*{
+	margin: 0;
+	color: white;
+}
+
+details > summary {
+list-style: none;
+}
+details > summary::-webkit-details-marker {
+display: none;
+}
+
+p{
+	margin: 0.6em;
+}
+
+
+#header{
+	white-space: nowrap;
+	position: fixed;
+	width: 100%;
+	padding: 0.6em;
+}
+
+#navegation{
+	white-space: nowrap;
+	position: fixed;
+  justify-content: space-between;
+	margin-top: 54px;
+	width: 100%;
+}
+
+#navegation ul{
+	display: flex;
+	flex-direction: row;
+	padding: 0.2em 0;
+}
+
+#navegation li{
+	list-style: none;
+	padding: 0.1em 1.6em;
+}
+
+#navegation a,#header a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#navegation a:hover{
+	color: yellow;
+}
+
+#main_content{
+	min-height: 30%;
+	width: 100%;
+}
+
+#articles{
+	display: flex;
+	flex-direction: column;
+	padding-top: 80px;
+	background-color: rgba(0,0,0,0);
+	width: 70%;
+	box-sizing: border-box;
+}
+
+#articles h1,#articles h2, #articles h3{
+	padding: 0.3em;
+	white-space: nowrap;
+}
+
+#articles h2{
+	padding-top: 0.6em;
+}
+
+#articles div{
+	padding: 0.6em;
+}
+
+.aside{
+	border: 1px solid white;
+	padding: 0.6em;
+	padding-top: 80px;
+	background-color: #375176;
+	float: left;
+	width: 30%;
+	box-sizing: border-box;
+	min-height: 40em;
+}
+
+.aside h1{
+	margin: 0.6em;
+}
+
+.article{
+	display: flex;
+	justify-content: center;
+}
+
+.block{
+	border: 1px solid white;
+	flex: 1;
+}
+
+.content{
+	padding-top: 80px;
+	margin: 0 0.6em 0.6em 0.6em;
+}
+
+#footer{
+	bottom: 0;
+	width: 100%;
+	white-space: nowrap;
+	padding: 0.6em;
+	margin-top: 2.6em;
+}
+
+textarea{
+	width: 80%;
+	color: black;
+}
+
+.Bg_chooser{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 0.6em;
+}
+
+butoon{
+	border: 0px solid black;
+	color: white;
+}
+
+
+.clear{
+	clear: both;
+}
+
+li.comment{
+	list-style: none;
+	padding: 1.6em;
+	border: 1px solid white;
+}
+
+#current_position{
+	float: right;
+}
+
+input#comment, textarea{
+	color: black;
+	width: 85%;
+	height: 1.6em;
+}
+
+#current_position{
+	color: black;
+	background-color: white;
+	border-radius: 0.3em;
+}
+
+input#comment_btn{
+	width: 10%;
+	color: black;
+}
+
+button.delete{
+	position: relative;
+	background: red;
+	float: right;
+}
+
+
+/* Trabalho em vão ;-; 
+				|
+			  |
+				V			 
+*/
+.Blue{
+	background-color: #041E42;
+	flex: 1;
+	white-space: nowrap;
+}
+
+.Black{
+	background-color: #212121;
+	flex: 1;
+	white-space: nowrap;
+}
+
+.Claro{
+	background-color: #1DA1F2;
+	flex: 1;
+	white-space: nowrap;
+}
+
+.Green{
+	background-color: #78C257;
+	flex: 1;
+	white-space: nowrap;
+}
+
+.Red{
+	background-color: #E50914;
+	flex: 1;
+	white-space: nowrap;
+}
+
+.Bg_blue{
+	background-color: #041E42;
+}
+.Bg_blue_NA{
+	background-color: #375176;
+}
+.Bg_blue_Ba{
+	background-color: #18345c;
+}
+
+
+.Bg_black{
+	background-color: #212121;
+}
+.Bg_black_NA{
+	background-color: #424242;
+}
+.Bg_black_Ba{
+	background-color: black;
+}
+
+
+.Bg_claro{
+	background-color: #1DA1F2;
+}
+.Bg_claro_NA{
+	background-color: #46a1d9;
+}
+.Bg_claro_Ba{
+	background-color: blue;
+}
+
+
+.Bg_green{
+	background-color: #78C257;
+}
+.Bg_green_NA{
+	background-color: #80a96d;
+}
+.Bg_green_Ba{
+	background-color: green;
+}
+
+
+.Bg_red{
+	background-color: #E50914;
+}
+.Bg_red_NA{
+	background-color: #cc3139;
+}
+.Bg_red_Ba{
+	background-color: red;
+}
+
